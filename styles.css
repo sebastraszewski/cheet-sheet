@@ -1,0 +1,59 @@
+* {
+    font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;;
+}
+
+header {
+    background-color: #e7ecef;
+    text-align: center;
+    color:#137cb9;
+    font-weight: bold;
+
+}
+
+table {
+    border-spacing: 15px;
+    border:black solid;
+    width:100%;
+}
+
+td {
+    
+    border: black solid; 
+    vertical-align: top;
+    display: table-cell;
+}
+
+
+
+div {
+    display:block
+}
+
+.spaceing {
+   margin-left: 5%;
+}
+
+.smallTitles {
+    color:#2082bc;
+    font-size: 17px;
+}
+
+.titles {
+    font-size: 20px;
+    color: #f47320;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.meta {
+    color:#18188a;
+    font-weight: bold;
+}
+
+.string {
+    color:#138813;
+    font-weight: bold;
+}
+
+
+
