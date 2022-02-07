@@ -5,15 +5,18 @@
 header {
   background-color: #e7ecef;
   color: #137cb9;
-  font-weight: bold;
-  height: 50pt;
-  text-align: center;
+  font-weight: bold;  
+  
 }
 
 #header {
-  padding-top: 10pt;
-  padding-right: 90pt;
+  line-height: 50pt;
   font-size: 23pt;
+  display: block;
+  padding:auto;
+  text-align: center;
+  /* text-align: middle; */
+
 }
 
 table {
@@ -29,11 +32,6 @@ td {
 @media (max-width: 550px){
   td {
     display: block;
-  }
-  #header {
-    font-size: 25px;
-    padding-right: 40pt;
-    padding-top: 12pt;
   }
 }
 
