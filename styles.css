@@ -26,10 +26,14 @@ td {
   display: table-cell;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0)
-  and (min-resolution:.001dpcm) and (max-width: 550px){
+@media (max-width: 550px){
   td {
     display: block;
+  }
+  #header {
+    font-size: 19pt;
+    padding-right: 40pt;
+    padding-top: 12pt;
   }
 }
 
