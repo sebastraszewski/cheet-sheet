@@ -1,59 +1,88 @@
 * {
-    font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 header {
-    background-color: #e7ecef;
-    text-align: center;
-    color:#137cb9;
-    font-weight: bold;
+  background-color: #e7ecef;
+  color: #137cb9;
+  font-weight: bold;
+  height: 50pt;
+  text-align: center;
+}
 
+h1 {
+  padding-top: 10pt;
+  padding-right: 90pt;
 }
 
 table {
-    border-spacing: 15px;
-    border:black solid;
-    width:100%;
+  border-spacing: 13pt;
+  width: 100%;
 }
 
 td {
-    
-    border: black solid; 
-    vertical-align: top;
-    display: table-cell;
+  vertical-align: top;
+  display: table-cell;
 }
 
-
+@media (max-width: 528px ){
+  td {
+    display: block;
+  }
+}
 
 div {
-    display:block
+  display: block;
+  font-size: 12pt;
 }
 
 .spaceing {
-   margin-left: 5%;
+  margin-left: 5%;
 }
 
 .smallTitles {
-    color:#2082bc;
-    font-size: 17px;
+  color: #2082bc;
+  font-size: 14pt;
 }
 
 .titles {
-    font-size: 20px;
-    color: #f47320;
-    margin-bottom: 10px;
-    font-weight: bold;
+  font-size: 17pt;
+  color: #f47320;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .meta {
-    color:#18188a;
-    font-weight: bold;
+  color: #18188a;
+  font-weight: bold;
 }
 
 .string {
-    color:#138813;
-    font-weight: bold;
+  color: #138813;
+  font-weight: bold;
 }
 
+img {
+  height: 50pt;
+  float: left;
+}
 
+.var {
+  color: #640b78;
+  font-style: italic;
+}
 
+.prop {
+  color: #640b78;
+  font-weight: bold;
+}
+
+.comment {
+  color: #838383;
+  font-style: italic;
+}
+
+.numbers {
+  color:#3030ff;
+}

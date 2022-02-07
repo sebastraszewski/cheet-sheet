@@ -1,37 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="styles.css" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <img src="https://drive.google.com/file/d/1tWGQQ6Lx5vawMeF9UpxIwiDpxkk0c_vL/view?usp=sharing"></a>
-            <h1>CHEET SHEET</h1>
-        </header>
-        <main>
-            <section>
-                <table>
-                    <tr>
-                      <article>
-                        <td id="firstCol">
-                            <div id="basics" class="titles">BASICS</div>
+
+<head>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src=./itseb.png> </a> <h1>CHEET SHEET</h1>
+    </header>
+    <main>
+        <section>
+            <table>
+                <tr>
+                    <td id="firstCol">
+                        <div id="basics" class="titles">BASICS</div>
+                        <article>
                             <div class="smallTitles">Hello, World" program</div>
                             <div><span class="meta">fun</span> main(args: Array&lt;String&gt;) {</div>
                             <div class="spaceing">println(<span class="string">"Hello, World"</span>)</div>
-                            <div>}</div>   
-                        </td>
-                      </article>   
-                      <article>
+                            <div>}</div>
+                            <div class="smallTitles">Declaring function</div>
+                            <div><span class="meta">fun</span> sum(a: int, b:int): Int {</div>
+                            <div class="spaceing"><span class="meta"></span>return</span> a + b(<span
+                                    class="string">"Hello, World"</span>)</div>
+                            <div>}</div>
+                            <div class="smallTitles">Single-expression function</div>
+                            <div><span class="meta">fun</span> sum(a: int, b:int) = a + b</div>
+                            <div class="smallTitles">Declaring variables</div>
+                            <div><span class="meta">val</span><span class="var"> name</span> = <span
+                                    class="string">"Marcin"</span><span class="comment">     //Can't be changed</span></div>
+                            <div><span class="meta">val</span><span class="var"> age</span> = 5<span class="comment"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    //Can't be changed</span></div>
+                            <div>age++</div>
+                            <div class="smallTitles">Variable with nullable types</div>
+                            <div><span class="meta">var</span> name: String? = <span class="meta"></span>null</span>
+                            </div>
+                            <div><span class="meta">val</span> length: Int</div>
+                            <div>length = name?.<span class="prop">length</span> ?: 0 </div>
+                            <div class="comment">// length, or 0 if name is null</div>
+                            <div>length = name?.<span class="prop">length</span> ?: 0 <span class="meta">return</span>
+                            </div>
+                            <div class="comment">// length, or return when name is null</div>
+                            <div>length = name?.<span class="prop">length</span> ?: 0 <span class="meta">throw</span> Error()
+                            </div>
+                            <div class="comment">// length, or throw error when name is null</div>
+                        </article>
+                        <article>
+                            <div class="titles">CONTROL STRUCTURES</div>
+                            <div class="smallTitles">If as an expression</div>
+                            <div><span class="meta">fun</span> bigger(a: Int, b: Int) = if (a > b) a <span class="meta">else</span> b</div>
+                            <div class="smallTitles">For loop</div>
+                            <div><span class="meta">val</span> <span class="prop"> list</span> = listOf(<span class="string">"A"</span>, <span class="string">"B"</span>, <span class="string">"C"</span>)</div>
+                            <div><span class="meta">for</span> (element <span class="meta">in </span>list) {</div>
+                            <div><span class="spaceing">println(element)</span></div>
+                            <div>}</div>
+                            <div class="smallTitles">When expression</div>
+                            <div><span class="meta">fun</span> numberTypeName(x: Number) = <span class="meta">when</span>(x) {</div>
+                            <div><span class="spaceing">0 </span>-> <span class="string">"Zero"</span></div>
+                            <div><span class="meta">in </span> <span class="numbers">1</span>..<span class="numbers">4</span> -></div>
+
+                        </article>
+                    </td>
+                    <article>
                         <td id="secondCol">
                             <div id="classes" class=titles>CLASSES</div>
                             <div class="smallTitles">Hello, World" program</div>
                             <div>fun main(args: Array&lt;String&gt;) {</div>
-                            <div class="spaceing">println("Hello, World")</div>    
+                            <div class="spaceing">println("Hello, World")</div>
                         </td>
-                      </article>
-                    </tr>
-                </table>
-            </section>
-        </main>
-    </body>
+                    </article>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+
 </html>
